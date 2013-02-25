@@ -1,0 +1,186 @@
+@media screen {
+	body
+	{
+		background-color: #697335;
+		margin: 0;
+		padding: 5px 0;
+		-webkit-text-size-adjust:100%;
+	}
+
+	.site-header,
+	.page-header {
+		display: none;
+	}
+
+	#content
+	{
+		position: relative;
+		background-color: #F5F7EA;
+		max-width: 600px;
+		min-height: 200px;
+		margin: 0 auto;
+		color: #697335;
+		font-family: Georgia, serif;
+		-webkit-box-shadow:  0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+		box-shadow:  0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+	}
+
+	#logo
+	{
+		background: url("logo.png") no-repeat center 18px;
+		height: 300px;
+	}
+
+	#banner
+	{
+		background: url("banner.jpg") no-repeat center center;
+		height: 115px;
+	}
+
+	#banner:after {
+		content:"Photo by Aleksis Nokso-Koivisto";
+		display: block;
+		position: absolute;
+		bottom: 3;
+		right: 3;
+		font-size: 8px;
+		color: #ddd;
+	}
+
+	#menu
+	{
+		line-height: 30px;
+		padding: 15px 5%;
+		text-align: center;
+	}
+
+	#menu a,
+	#menu span
+	{
+		font-size: 12pt;
+		font-weight: bolder;
+		font-family: Arial, Helvetica, Geneva, sans-serif;
+		text-transform: uppercase;
+		margin: 0 10px;
+	}
+
+	#menu .active {
+		color: #697335;
+	}
+
+	#languages
+	{
+		position: absolute;
+		top: 5px;
+		left: 10px;
+	}
+
+	.shadow
+	{
+		-webkit-box-shadow:  0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+		box-shadow:  0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	#fb 
+	{
+		position: absolute;
+		top: 5px;
+		left: 47px;
+	}
+
+	#page
+	{
+		padding: 10px 5%;
+	}
+}
+
+@media print {
+	#logo, #banner, #menu, #languages, #fb, .video-container {
+		display: none;
+	}
+}
+
+h1
+{
+	font-size:20pt;
+}
+
+h2
+{
+	margin-top: 30px;
+	font-size:14pt;
+	border-bottom: 1px solid #697335;
+}
+
+h3
+{
+	margin-top: 20px;
+	font-weight: bolder;
+	font-size:12pt;
+}
+
+p
+{
+	line-height: 21px;
+	font-size:12pt;
+	text-align: justify;
+}
+
+a:link,
+a:visited
+{
+	color: #0794b2;
+	text-decoration: none;
+}
+
+a:hover,
+a:active
+{
+	color: #FAC0BF;
+	text-decoration: none;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-width : 600px) {
+	body {
+		padding: 0;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+	#logo
+	{
+		background: url("logo@2x.png") no-repeat center center;
+		background-size: 320px 273px; 
+	}
+
+	#banner 
+	{
+		background-image: url(banner@2x.jpg);
+		background-size: auto 115px;
+	}
+}
