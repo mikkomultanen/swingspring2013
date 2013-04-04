@@ -22,6 +22,9 @@ $(function() {
 		$("#page").load(page, function() {
 			fixEmailLinks();
 			refreshLanguageLinks(pageId);
+			$('html, body').animate({
+				scrollTop: $("#menu").offset().top
+			}, 500);
 		});
     });
 });
