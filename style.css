@@ -28,7 +28,7 @@
 
 	#logo
 	{
-		background: url("logo.png") no-repeat center 18px;
+		background: url("logo.png") no-repeat center center;
 		height: 300px;
 	}
 
