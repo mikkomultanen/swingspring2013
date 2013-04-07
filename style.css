@@ -41,6 +41,7 @@
 	#banner:after {
 		content:"Photo by Aleksis Nokso-Koivisto";
 		display: block;
+		opacity: 0.5;
 		position: absolute;
 		bottom: 3;
 		right: 3;
