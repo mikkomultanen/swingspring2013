@@ -178,6 +178,8 @@ a:active
 	width: 120px;
 	margin-right: 0.8em;
 	margin-bottom: 0.8em;
+	padding: 4px;
+	background: #fff;
 }
 
 .right img {
