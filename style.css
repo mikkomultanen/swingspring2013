@@ -131,10 +131,8 @@ p
 	text-align: justify;
 }
 
-q {
+.palaute q {
 	display: block;
-	margin: 1em 0;
-	font-style: italic;
 }
 
 a:link,
