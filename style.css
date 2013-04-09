@@ -106,12 +106,6 @@
 	}
 }
 
-@media print {
-	#logo, #banner, #menu, #languages, #fb, .video-container {
-		display: none;
-	}
-}
-
 h1
 {
 	font-size: 170%;
@@ -192,10 +186,97 @@ a:active
 	margin-left: 0.8em;
 }
 
+#schedule {
+	font-size:90%;
+	font-family:"Segoe Print", Arial, Helvetica, sans-serif;
+	border-collapse: separate;
+	border-spacing: 2px;
+	text-align:center;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+#schedule .time {
+	font-weight: bolder;
+	font-size:80%;
+}
+
+#schedule td,
+#schedule th {
+	background-color:#EBFFAD;
+	color:#000000;
+	width: 20%;
+	vertical-align: top;
+}
+
+#schedule th {
+	font-weight: bolder;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+ /* light green */
+#schedule .registration {
+	background-color:#99FF66;
+}
+/* light yellow */
+#schedule .class {
+	background-color:#FFFF99
+}
+/* light blue */
+#schedule .meal {
+	background-color:#99CCFF
+}
+/* light purple */
+#schedule .bonbon {
+	background-color:#FF66FF
+}
+/* red */
+#schedule .party {
+	background-color:#FF3300
+}
+/* background red */
+#schedule .bg-red {
+	background-color:#FFE6FF
+}
+
+@media print {
+	#logo, #banner, #menu, #languages, #fb, .video-container {
+		display: none;
+	}
+
+	#schedule {
+		border-collapse: collapse;
+	}
+
+	#schedule th,
+	#schedule td {
+		border: 1px solid black;
+	}
+}
+
 @media only screen and (max-width : 600px) {
 	body {
 		padding: 0;
 		font-size: 11pt;
+	}
+
+	#schedule {
+		font-size:90%;
+	}
+}
+
+@media only screen and (max-width : 400px) {
+	body {
+		padding: 0;
+		font-size: 10pt;
+	}
+
+	#schedule {
+		font-size:80%;
+		margin:0 -5%;
+		width:110%;
 	}
 }
 
