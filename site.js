@@ -7,7 +7,7 @@ $(function() {
 	var $menuLinks = $("#menu a");
 	$menuLinks.on('click', function(event) {
 		event.preventDefault();
-		History.pushState({}, "", $(this).attr('href'));
+		History.pushState({}, "Swing Spring 2013", $(this).attr('href'));
 	});
 
 	var firstLinkParams = getParams($menuLinks.first().attr('href'))
