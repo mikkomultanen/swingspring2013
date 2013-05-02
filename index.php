@@ -3,13 +3,13 @@
 <title>Swing Spring 2013</title>  
 <meta name="Author" content="Swing Spring 2013 Crew" /> 
 <meta name="Keywords" content="Swing Spring 2013 lindy hop balboa dance camp" /> 
-<meta name="Description" content="Swing Spring 2013 dance camp in Himos, Jämsä Finland" /> 
+<meta name="Description" content="Swing Spring 2013 Lindy Hop dance camp in Himos, Jämsä Finland" /> 
 <meta property="og:title" content="Swing Spring 2013" />
 <meta property="og:type" content="activity" />
 <meta property="og:url" content="http://swingspring.lindyhop.fi" />
 <meta property="og:image" content="http://swingspring.lindyhop.fi/logo.png" />
 <meta property="og:site_name" content="Swing Spring 2013" />
-<meta property="og:description" content="Swing Spring 2013 dance camp in Himos, Jämsä Finland" />
+<meta property="og:description" content="Swing Spring 2013 Lindy Hop dance camp in Himos, Jämsä Finland" />
 <meta property="fb:admins" content="660309614" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
