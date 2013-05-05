@@ -111,7 +111,6 @@
 h1
 {
 	font-size: 170%;
-	page-break-inside: avoid
 }
 
 h2
@@ -119,7 +118,6 @@ h2
 	margin-top: 30px;
 	font-size: 120%;
 	border-bottom: 1px solid #697335;
-	page-break-inside: avoid
 }
 
 h3
@@ -127,7 +125,6 @@ h3
 	margin-top: 20px;
 	font-weight: bolder;
 	font-size: 100%;
-	page-break-inside: avoid
 }
 
 p
@@ -138,7 +135,6 @@ p
 
 .palaute q {
 	display: block;
-	page-break-inside: avoid
 }
 
 a:link,
@@ -175,7 +171,6 @@ a:active
 
 .teacher {
 	clear: both;
-	page-break-inside: avoid
 }
 
 .teacher img {
@@ -259,6 +254,19 @@ a:active
 	.schedule th,
 	.schedule td {
 		border: 1px solid black;
+	}
+
+	h1, h2, h3 {
+		page-break-inside: avoid;
+		page-break-after: avoid;
+	}
+
+	.teacher {
+		page-break-inside: avoid;
+	}
+
+	.schedule {
+		page-break-before: avoid;
 	}
 }
 
