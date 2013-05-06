@@ -110,7 +110,7 @@
 
 h1
 {
-	font-size: 170%;
+	font-size: 150%;
 }
 
 h2
@@ -240,6 +240,11 @@ a:active
 		display: none;
 	}
 
+	.site-header,
+	.page-header {
+		display: inline;
+	}
+
 	.schedule-both {
 		position: relative;
 	}
@@ -270,10 +275,6 @@ a:active
 
 	.teacher {
 		page-break-inside: avoid;
-	}
-
-	.schedule {
-		page-break-before: avoid;
 	}
 }
 
